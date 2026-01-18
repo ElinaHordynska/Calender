@@ -6,6 +6,7 @@
     min-height: 3rem;
     background-color: c.$primary-100;
     color: c.$primary-300;
+    padding-inline: 1rem;
 
     & nav {
         display: flex;
@@ -19,6 +20,15 @@
             display: flex;
             align-items: center;
             gap: 0.1rem;
+        }
+    }
+
+    & .iconBar {
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        & > svg {
+            font-size: 1.5rem;
         }
     }
 }
